@@ -211,21 +211,39 @@ body{
 
   .textbook-card-front{
       background-image: url('../assets/images/textbook.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
   }
   .prize-card-front{
     background-image: url('../assets/images/prize.jpg');
+    background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
 }
 .award-card-front{
     background-image: url('../assets/images/award.jpg');
+    background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
 }
 .leadership-card-front{
     background-image: url('../assets/images/leadership-back.jpg');
+    background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
 }
 .nutrition-card-front{
     background-image: url('../assets/images/nutrition.jpg');
+    background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
 }
 .covid-card-front{
     background-image: url('../assets/images/covid.jpg');
+    background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
 }
   .card-overlay{
     background-color: rgba(45, 45, 45, 0.6);
