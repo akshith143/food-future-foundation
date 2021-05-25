@@ -3,14 +3,16 @@ window.onscroll = function () {
         document.getElementById('header').style.height = "60px";
         document.getElementById('nav-logo').style.width = "60px";
         document.getElementById('nav-logo').style.height = "60px";
-        document.getElementById('nav-logo').style.marginLeft = "90%"
+        document.getElementById('nav-logo').style.marginLeft = "10rem";
+        document.getElementById('nav-logo').style.marginTop = "0rem"
         document.getElementById('header').style.backgroundColor = "#000000";
         document.getElementById("myBtn").style.display = "block";
+        
     } else {
-        document.getElementById('header').style.height = "125px";
-        document.getElementById('nav-logo').style.width = "125px";
-        document.getElementById('nav-logo').style.height = "125px";
-        document.getElementById('nav-logo').style.marginLeft = "50%"
+        document.getElementById('header').style.height = "160px";
+        document.getElementById('nav-logo').style.width = "160px";
+        document.getElementById('nav-logo').style.height = "160px";
+        document.getElementById('nav-logo').style.marginLeft = "5.5rem"
         document.getElementById('header').style.backgroundColor = "transparent";
         document.getElementById("myBtn").style.display = "none";
     }
