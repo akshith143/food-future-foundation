@@ -124,7 +124,7 @@ body{
 .main-banner{
     position: relative;
     background-color: black;
-    height: 75vh;
+    height: 100vh;
     min-height: 50rem;
     width: 100%;
     overflow: hidden;
@@ -436,9 +436,12 @@ body{
   }
 
 @media screen and (max-width: 425px) { 
-    .about-left{
-        width: 96%;
+    .about-row{
+        margin-top:-1.2rem;
+        margin-left: 0px;
+        width:100%;
     }
+   
     .overlay-text{
         padding: 35% 0% 35% 0%;
     }
