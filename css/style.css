@@ -435,6 +435,10 @@ body{
     border-radius: 0px;
   }
 
+  .slider{
+      padding: 5% 7% 5% 7%;
+  }
+
 @media screen and (max-width: 425px) { 
     .about-row{
         margin-top:-1.2rem;

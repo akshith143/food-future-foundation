@@ -7,7 +7,7 @@ window.onscroll = function () {
         document.getElementById('nav-logo').style.marginTop = "0rem"
         document.getElementById('header').style.backgroundColor = "#000000";
         document.getElementById("myBtn").style.display = "block";
-        
+
     } else {
         document.getElementById('header').style.height = "160px";
         document.getElementById('nav-logo').style.width = "160px";
@@ -52,3 +52,29 @@ function showLessi(i) {
     document.getElementById('show-more' + i).style.display = 'block';
     document.getElementById('show-less' + i).style.display = 'none';
 }
+
+
+// partner carousel
+
+$(document).ready(function () {
+    $('.customer-logos').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1000,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 4
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 3
+            }
+        }]
+    });
+});
