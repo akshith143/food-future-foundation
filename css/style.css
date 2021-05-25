@@ -307,8 +307,45 @@ body{
     transform: rotateY(180deg);
     padding: 15% 5% 5% 5%;
   }
+  
 
+.card-data{
+    height: 200px;
+    background-color: #ecf0f1;
+    position: relative;
+    top: 200px;
+    margin-left: -1px;
+    margin-right: -1px;
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
 
+.card-data:hover{
+    top: 0px;
+    height: 400px;
+    margin-left: -1px;
+    margin-right: -1px;
+    border-top-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    transition:  1s;
+}
+
+.card-data .header-text{
+    padding-top: 10%;
+    color: #000;
+}
+.card-data:hover .header-text{
+    display: none;
+}
+.para-data{
+    display: none;
+}
+.card-data:hover .para-data{
+    display: block;
+    color: #000;
+    letter-spacing: 1px;
+    padding:2%;
+}
 
 
 .quotes{
