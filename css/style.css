@@ -79,7 +79,7 @@ body {
 .nav-link {
     color: #fff;
     letter-spacing: 1px;
-    font-family: 'open-sans-bold';
+    font-family: 'open-sans';
 }
 
 #nav-logo {
@@ -570,11 +570,18 @@ body {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
     #header {
         display: none;
     }
     #sidenav {
         display: block;
+    }
+    .second-row {
+        margin-top: 5%;
+        margin-left: 0%;
+    }
+    .line{
+        display: none !important;
     }
 }
