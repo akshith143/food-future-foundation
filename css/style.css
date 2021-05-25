@@ -76,12 +76,6 @@ body{
     width: 160px; height: 160px;margin-left: 5.5rem;margin-top: -1.6rem;
 }
 
-/* .nav-link:hover{
-    color: #6bb46d;
-    color: #2980b9;
-    border-bottom: 1px solid #2980b9;
-} */
-
 .nav-item:after {
 	content: '';
 	display: block;
@@ -320,24 +314,31 @@ body{
 
 
 .quotes{
+    background-image: url('../assets/images/fields.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     height: 100%;
-    margin-bottom: 5%;
-    margin-top: 5%;
+    width: 100%;
+    padding: 5%;
 }
 .quote-container{
     border-radius: 15px;
-    background-color: #f6f6f6;
+    background-color: rgba(45, 45, 45, 0.6);
     text-align: center;
     padding: 15% 5% 5% 5%;
 }
 .para-text{
     font-size: 15px;
     letter-spacing: 1px;
+    color: #ecf0f1;
     font-family: 'montserrat-italic';
 }
 .name-author{
     font-family: 'montserrat-light';
     letter-spacing: 1px;
+    color: #ecf0f1;
     font-size: 15px;
 }
 .quote-icon{
