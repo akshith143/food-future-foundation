@@ -9,8 +9,10 @@
     <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/png">
     <link rel="stylesheet" href="./assets/libs/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/infinite-slider.css">
 
     <script src="./assets/libs/jquery/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
     <script src="./assets/libs/bootstrap/js/bootstrap.min.js"></script>
     <script src="./assets/libs/font-awesome/font-awsome.min.js"></script>
 </head>
@@ -111,7 +113,7 @@
         </div>
     </div>
     <div class="info">
-        <div class="container data">
+        <div class=" data">
             <div class="row">
                 <div class="col-md-3">
                     <div class="flip-card">
@@ -279,62 +281,22 @@
     </div>
 
     <div class="partners">
-        <div class="container">
-            <h2 class="partner-head">Our Partners</h2>
-            <div class="partner-content">
-                <div class="row" style="margin-bottom: 5%;">
-                    <div class="col-md-2">
-                        <img src="./assets/images/partner7.png" width="100px" height="100px" alt="" srcset="">
-                    </div>
-                    <div class="col-md-2">
-                        <img src="./assets/images/partner6.jpg" width="100px" height="100px" alt="" srcset="">
-                    </div>
-                    <div class="col-md-2">
-                        <img src="./assets/images/partner4.png" width="100px" height="100px" alt="" srcset="">
-                    </div>
-                    <div class="col-md-2">
-                        <img src="./assets/images/partner5.png" width="100px" height="100px" alt="" srcset="">
-                    </div>
-                    <div class="col-md-2">
-                        <img src="./assets/images/partner8.png" width="100px" height="100px" alt="" srcset="">
-                    </div>
-                    <div class="col-md-2">
-                        <img src="./assets/images/partner11.png" width="100px" height="100px" alt="" srcset="">
-                    </div>
-                </div>
-                <a data-toggle="collapse" data-target="#demo" id="show-more" onclick="showMore()" href="#">Show More <i
-                        class="fas fa-chevron-down"></i></a>
-                <a data-toggle="collapse" data-target="#demo" id="show-less" onclick="showLess()" href="#">Show Less <i
-                        class="fas fa-chevron-up"></i></a>
-                <div id="demo" class="collapse">
-                    <div class="row" style="margin-top: 5%;">
-                        <div class="col-md-2">
-                            <img src="./assets/images/partner1.png" width="100px" height="100px" alt="" srcset="">
-                        </div>
-                        <div class="col-md-2">
-                            <img src="./assets/images/unnamed.jpg" width="100px" height="100px" alt="" srcset="">
-                        </div>
-                        <div class="col-md-2">
-                            <img src="./assets/images/partner2.jpg" width="100px" height="100px" alt="" srcset="">
-                        </div>
-                        <div class="col-md-2">
-                            <img src="./assets/images/partner3.jpg" width="100px" height="100px" alt="" srcset="">
-                        </div>
-                        <div class="col-md-2">
-                            <img src="./assets/images/partner9.png" width="100px" height="100px" alt="" srcset="">
-                        </div>
-                        <div class="col-md-2">
-                            <img src="./assets/images/partner10.png" width="100px" height="100px" alt="" srcset="">
-                        </div>
-                    </div>
-                    <div class="row" style="margin-top: 5%;">
-                        <div class="col-md-2">
-                            <img src="./assets/images/partner12.jpg" width="100px" height="100%" alt="" srcset="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <h2 class="partner-head">Our Partners</h2>
+        <section class="customer-logos slider">
+            <div class="slide"><img src="./assets/images/partner7.png"></div>
+            <div class="slide"><img src="./assets/images/partner6.jpg"></div>
+            <div class="slide"><img src="./assets/images/partner4.png"></div>
+            <div class="slide"><img src="./assets/images/partner5.png"></div>
+            <div class="slide"><img src="./assets/images/partner8.png"></div>
+            <div class="slide"><img src="./assets/images/partner11.png"></div>
+            <div class="slide"><img src="./assets/images/partner1.png"></div>
+            <div class="slide"><img src="./assets/images/unnamed.jpg"></div>
+            <div class="slide"><img src="./assets/images/partner2.jpg"></div>
+            <div class="slide"><img src="./assets/images/partner3.jpg"></div>
+            <div class="slide"><img src="./assets/images/partner9.png"></div>
+            <div class="slide"><img src="./assets/images/partner10.png"></div>
+            <div class="slide"><img src="./assets/images/partner12.jpg"></div>
+        </section>
     </div>
 
     <div class="quotes">
