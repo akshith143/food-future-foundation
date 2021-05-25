@@ -223,7 +223,8 @@ body{
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
-      height: 400px; 
+      height: 20rem; 
+      width: 17rem;
       border-bottom-right-radius: 40%;
   }
   .prize-card-front{
@@ -231,7 +232,8 @@ body{
     background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
-      height: 400px; 
+      height: 20rem; 
+      width: 17rem;
       border-bottom-right-radius: 40%;
 }
 .award-card-front{
@@ -239,7 +241,8 @@ body{
     background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
-      height: 400px; 
+      height: 20rem; 
+      width: 17rem;
       border-bottom-right-radius: 40%;
 }
 .leadership-card-front{
@@ -247,7 +250,8 @@ body{
     background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
-      height: 400px; 
+      height: 20rem; 
+      width: 17rem;
       border-bottom-right-radius: 40%;
 }
 .nutrition-card-front{
@@ -255,7 +259,8 @@ body{
     background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
-      height: 400px; 
+      height: 20rem; 
+      width: 17rem;
       border-bottom-right-radius: 40%;
 }
 .covid-card-front{
@@ -263,7 +268,8 @@ body{
     background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
-      height: 400px; 
+      height: 20rem; 
+      width: 17rem;
       border-bottom-right-radius: 40%;
 }
   .card-overlay{
@@ -275,10 +281,10 @@ body{
     padding: 40% 5% 5% 5%; 
   }
 .card-data{
-    height: 200px;
+    height: 10rem;
     background-color: #ecf0f1;
     position: relative;
-    top: 200px;
+    top: 10rem;
     margin-left: -1px;
     margin-right: -1px;
     border-top-left-radius: 40%;
@@ -287,16 +293,15 @@ body{
 
 .card-data:hover{
     top: 0px;
-    height: 400px;
-    margin-left: -1px;
-    margin-right: -1px;
+    height: 20rem;
+    margin: -1px;
     border-top-left-radius: 0%;
     border-bottom-right-radius: 0%;
     transition:  1s;
 }
 
 .card-data .header-text{
-    padding-top: 25%;
+    padding-top: 20%;
     color: #000;
 }
 .card-data:hover .header-text{
@@ -310,6 +315,7 @@ body{
     color: #000;
     letter-spacing: 1px;
     text-align: center;
+    margin: 20% 5% 5% 5%;
 }
 
 
@@ -440,6 +446,10 @@ body{
   .slider{
       padding: 5% 7% 5% 7%;
   }
+  .second-row{
+      margin-top: 5%;
+      margin-left: 8%;
+  }
 
 @media screen and (max-width: 425px) { 
     .about-row{
@@ -447,7 +457,14 @@ body{
         margin-left: 0px;
         width:100%;
     }
-   
+    .second-row{
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+    
+   .data{
+       margin-left: 3.5rem;
+   }
     .overlay-text{
         padding: 35% 0% 35% 0%;
     }
