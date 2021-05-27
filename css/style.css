@@ -79,7 +79,9 @@ body {
 .nav-link {
     color: #fff;
     letter-spacing: 1px;
-    font-family: 'open-sans';
+    font-family: 'open-sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 #nav-logo {
@@ -122,9 +124,10 @@ body {
 .overlay-head {
     text-align: center;
     color: #ecf0f1;
-    font-size: 35px;
+    font-size: 40px;
     letter-spacing: 1px;
-    font-family: 'open-sans-bold';
+    font-family: 'open-sans', sans-serif;
+    font-weight: 700;
 }
 
 .overlay-data {
@@ -132,8 +135,9 @@ body {
     color: #ecf0f1;
     font-size: 20px;
     letter-spacing: 1px;
-    padding: 0% 15% 0% 15%;
-    font-family: 'open-sans';
+    padding: 0% 17% 0% 17%;
+    font-family: 'open-sans', sans-serif;
+    font-weight: 400;
 }
 
 .overlay-container {
@@ -170,52 +174,80 @@ body {
 }
 
 .about-left {
-    padding: 5% 5% 0% 5%;
+    padding: 0% 5% 0% 5%;
 }
 
 .about-us {
     height: 100%;
     background-color: #f6f6f6;
-    padding-bottom: 5%;
+    padding: 5% 0% 5% 0%;
+}
+
+.more-link {
+    color: #2980b9;
+    text-align: center;
+    margin: 5%;
+    font-size: 12px;
+    font-family: 'open-sans' sans-serif;
+    font-weight: 700;
+}
+
+.more-link:hover {
+    font-size: 14px;
+    transition: 0.2s;
+    text-decoration: none;
 }
 
 .about-quote {
-    font-family: 'open-sans-bold';
+    font-family: 'open-sans', sans-serif;
     font-size: 40px;
     color: #2980b9;
+    font-weight: 700;
 }
 
 .about-quote-icon-left {
     color: #6bb46d;
     position: relative;
-    right: 55%;
+    right: 50%;
 }
 
 .about-quote-icon-right {
     color: #6bb46d;
     position: relative;
-    left: 50%;
+    left: 40%;
 }
 
 .about-right {
-    padding: 5% 10% 0% 10%;
+    padding: 5% 5% 0% 0%;
     text-align: center;
 }
 
 .about-head {
-    font-family: 'opens-sans-bold';
+    font-family: 'open-sans', sans-serif;
     letter-spacing: 1px;
     color: #2980b9;
     text-align: left;
     padding-left: 5%;
-    font-size: 24px;
+    font-size: 27px;
+    font-weight: 700;
 }
 
 .about-para {
     letter-spacing: 1px;
-    text-align: justify;
-    padding: 5%;
-    font-size: 14px;
+    text-align: left;
+    padding: 5% 5% 0% 5%;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'open-sans', sans-serif;
+}
+
+.about-para-2 {
+    letter-spacing: 1px;
+    text-align: left;
+    padding: 0% 5% 0% 5%;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'open-sans', sans-serif;
 }
 
 #show-less, #show-less1, #show-less2, #show-less3 {
@@ -232,7 +264,17 @@ body {
 }
 
 .textbook-card-front {
-    background-image: url('../assets/images/book-1.jpg');
+    background-image: url('../assets/images/book-cover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
+    width: 17rem;
+    border-bottom-right-radius: 40%;
+}
+
+.book-card-front {
+    background-image: url('../assets/images/discussion.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -242,7 +284,7 @@ body {
 }
 
 .prize-card-front {
-    background-image: url('../assets/images/award-1.jpg');
+    background-image: url('../assets/images/award-2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -272,7 +314,7 @@ body {
 }
 
 .nutrition-card-front {
-    background-image: url('../assets/images/nutrition-1.jpg');
+    background-image: url('../assets/images/nutrition-4.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -282,7 +324,7 @@ body {
 }
 
 .covid-card-front {
-    background-image: url('../assets/images/covid-1.jpg');
+    background-image: url('../assets/images/covid.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -319,7 +361,12 @@ body {
     border-top-left-radius: 0%;
     border-bottom-right-radius: 0%;
     transition: 1s;
-    background-color: #3498db;
+    background-color: rgba(41, 128, 185, 0.8);
+}
+
+.textbook-card-front:hover, .book-card-front:hover, .prize-card-front:hover, .award-card-front:hover, .leadership-card-front:hover, .nutrition-card-front:hover, .covid-card-front:hover {
+    transition: 1s;
+    border-bottom-right-radius: 0%;
 }
 
 .card-data .header-text {
@@ -327,6 +374,8 @@ body {
     color: #000;
     font-size: 16px;
     text-align: center;
+    font-family: 'open-sans', sans-serif;
+    font-weight: 700;
 }
 
 .card-data:hover .header-text {
@@ -366,17 +415,19 @@ body {
 }
 
 .para-text {
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 1px;
     color: #ecf0f1;
-    font-family: 'open-sans-italic';
+    font-family: 'open-sans-italic', sans-serif;
+    font-weight: 400;
 }
 
 .name-author {
-    font-family: 'open-sans-light';
+    font-family: 'open-sans-light', sans-serif;
     letter-spacing: 1px;
     color: #ecf0f1;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .quote-icon {
@@ -390,15 +441,22 @@ body {
 .partners {
     text-align: center;
     height: 100%;
-    background-color: #f6f6f6;
+    background-color: #fff;
 }
 
 .partner-head {
     padding-top: 5%;
-    font-family: 'open-sans-bold';
+    font-family: 'open-sans', sans-serif;
     letter-spacing: 1px;
     color: #2980b9;
-    font-size: 24px;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.partner-line {
+    border: 1px solid #6bb46d;
+    width: 15rem;
+    margin-left: 41%;
 }
 
 .partner-content {
@@ -444,7 +502,10 @@ body {
 .touch-head {
     color: #fff;
     margin-bottom: 5%;
-    font-family: 'open-sans-bold';
+    font-family: 'open-sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
 }
 
 .subscribe {
@@ -452,12 +513,16 @@ body {
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     color: #fff;
+    font-family: 'open-sans', sans-serif;
+    letter-spacing: 2px;
 }
 
 .input-mail {
     background-color: rgba(45, 45, 45, 0.6);
     border: none;
     border-radius: 25px;
+    font-family: 'open-sans', sans-serif;
+    letter-spacing: 2px;
 }
 
 .input-mail:focus {
@@ -486,9 +551,23 @@ body {
     margin-right: 5%;
 }
 
+.privacy-link {
+    color: #fff;
+    font-size: 12px;
+    font-family: 'open-sans', sans-serif;
+    font-weight: 400;
+}
+.privacy-link:hover{
+    text-decoration: none;
+    color: #2980b9;
+}
+
 .footer-copyrights {
     color: #fff;
     margin-left: 5%;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'open-sans', sans-serif;
 }
 
 #nav-logo-mobile {
@@ -538,12 +617,15 @@ body {
         margin-left: 0px;
         width: 100%;
     }
+    .about-us {
+        padding: 15% 0% 5% 0%;
+    }
     .second-row {
         margin-top: 0%;
-        margin-left: 0%;
+        margin-left: -5% !important;
     }
     .data {
-        margin-left: 3.5rem;
+        margin-left: 8.5%;
     }
     .overlay-text {
         padding: 35% 0% 35% 0%;
@@ -565,8 +647,23 @@ body {
     .footer-copyrights {
         text-align: center;
     }
-    .col-md-2, .col-md-6, .col-md-4, .col-md-3 {
+    .col-md-2, .quotes .col-md-6, .col-md-4, .col-md-3 {
         margin-top: 5%;
+    }
+    .partner-line {
+        margin-left: 25%
+    }
+    .second-row {
+        margin-top: 0%;
+    }
+    .about-quote-icon-left {
+        right: 35%;
+    }
+    .about-quote-icon-right {
+        left: 35%;
+    }
+    .about-quote {
+        font-size: 30px;
     }
 }
 
@@ -581,7 +678,10 @@ body {
         margin-top: 5%;
         margin-left: 0%;
     }
-    .line{
-        display: none !important;
+}
+
+@media screen and (max-width: 1024px) and (min-width:760px) {
+    .textbook-card-front, .prize-card-front, .book-card-front, .award-card-front, .leadership-card-front, .nutrition-card-front, .covid-card-front {
+        width: 12rem;
     }
 }
