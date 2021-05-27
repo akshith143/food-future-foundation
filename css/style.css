@@ -190,6 +190,7 @@ body {
     font-size: 12px;
     font-family: 'open-sans' sans-serif;
     font-weight: 700;
+    letter-spacing: 3px;
 }
 
 .more-link:hover {
@@ -203,6 +204,7 @@ body {
     font-size: 40px;
     color: #2980b9;
     font-weight: 700;
+    letter-spacing: 5px;
 }
 
 .about-quote-icon-left {
@@ -224,7 +226,7 @@ body {
 
 .about-head {
     font-family: 'open-sans', sans-serif;
-    letter-spacing: 1px;
+    letter-spacing: 5px;
     color: #2980b9;
     text-align: left;
     padding-left: 5%;
@@ -294,7 +296,7 @@ body {
 }
 
 .award-card-front {
-    background-image: url('../assets/images/medal-1.jpg');
+    background-image: url('../assets/images/award-img.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -376,6 +378,7 @@ body {
     text-align: center;
     font-family: 'open-sans', sans-serif;
     font-weight: 700;
+    letter-spacing: 2px;
 }
 
 .card-data:hover .header-text {
@@ -447,7 +450,7 @@ body {
 .partner-head {
     padding-top: 5%;
     font-family: 'open-sans', sans-serif;
-    letter-spacing: 1px;
+    letter-spacing: 5px;
     color: #2980b9;
     font-size: 27px;
     font-weight: 700;
@@ -651,7 +654,10 @@ body {
         margin-top: 5%;
     }
     .partner-line {
-        margin-left: 25%
+        margin-left: 22%
+    }
+    .slider {
+        padding: 7%;
     }
     .second-row {
         margin-top: 0%;

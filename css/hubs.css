@@ -18,7 +18,7 @@
     src: url('../assets/fonts/Open_Sans/OpenSans-Light.ttf');
 }
 
-.hub-main-banner{
+.hub-main-banner {
     background-image: url('../assets/images/about.jpg');
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -26,19 +26,24 @@
     height: 400px;
     width: 100%;
 }
-.hub-overlay{
+
+.hub-overlay {
     background-color: rgba(45, 45, 45, 0.5);
     width: 100%;
     height: 400px;
 }
-.hub-overlay-head{
+
+.hub-overlay-head {
     padding-top: 15%;
     text-align: center;
     color: #fff;
-    font-family: 'open-sans-bold';
+    font-family: 'open-sans', sans-serif;
     letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 42px;
 }
-.about-main-banner{
+
+.about-main-banner {
     background-image: url('../assets/images/about-bg.jpg');
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -47,7 +52,7 @@
     width: 100%;
 }
 
-.global-main-banner{
+.global-main-banner {
     background-image: url('../assets/images/global.jpg');
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -55,7 +60,8 @@
     height: 400px;
     width: 100%;
 }
-.leadership-main-banner{
+
+.leadership-main-banner {
     background-image: url('../assets/images/leadership.jpeg');
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -65,7 +71,8 @@
 }
 
 /* knowledge hub */
-.Knowledge-main-banner{
+
+.Knowledge-main-banner {
     background-image: url('../assets/images/knowledge-hub.jpg');
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -73,75 +80,149 @@
     height: 400px;
     width: 100%;
 }
-.content-head{
+
+.content-head {
     padding-top: 5%;
     text-align: center;
     color: #2980b9;
-    font-family: 'open-sans-bold';
-    letter-spacing: 1px;
-    font-size: 24px;
+    font-family: 'open-sans', sans-serif;
+    letter-spacing: 5px;
+    font-size: 27px;
+    font-weight: 700;
 }
-.content-data{
+
+.content-data {
     text-align: center;
     padding: 2% 10% 0% 10%;
     letter-spacing: 1px;
-    font-family: 'open-sans';
-    font-size: 14px;
+    font-family: 'open-sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
 }
-.hub-content{
+
+.hub-content {
     padding: 5%;
 }
-.card-left,.card-right{
-    height: 14rem;
+
+.mission-img {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
 }
-.card-left:hover{
+
+.vision-img {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+
+.mission-row {
+    padding: 5% 0% 5% 5%;
+}
+
+.vision-row {
+    padding: 5% 0% 5% 5%;
     background-color: #2980b9;
-    transition: 1s;
-
 }
-.card-left:hover .content-head{
+
+.vision-row .content-head {
     color: #fff;
-    transition: 1s;
 }
 
-.card-right:hover{
-    background-color: #2980b9;
-    transition: 1s;
-
-}
-.card-right:hover .content-head{
-    color: #fff;
-    transition: 1s; 
+.content {
+    margin-top: 5%;
 }
 
+.header-line {
+    border: 1px solid #6bb46d;
+    width: 10rem;
+    margin-left: 18rem;
+}
 
-.resource-head{
+.overview-line {
+    border: 1px solid #6bb46d;
+    width: 10rem;
+    margin-left: 1%;
+}
+
+.overview-head {
+    padding-top: 5%;
+    text-align: left;
+    color: #2980b9;
+    font-family: 'open-sans', sans-serif;
+    letter-spacing: 5px;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.overview-data {
+    text-align: left;
+    padding: 2% 0% 0% 1%;
+    letter-spacing: 1px;
+    font-family: 'open-sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.overview-list {
+    margin: 0% 0% 5% 5%;
+    letter-spacing: 1px;
+    font-family: 'open-sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.resource-head {
     text-align: center;
-    font-family: 'montserrat-bold';
+    font-family: 'open-sans', sans-serif;
     letter-spacing: 1px;
     padding-top: 5%;
 }
-.resource-data{
-    padding:5%;
+
+.resource-data {
+    padding: 5%;
     letter-spacing: 1px;
     text-align: left !important;
 }
+
 /* end of knowledge hub */
 
-.iframe{
+.iframe {
     width: 640px;
     height: 1400px;
 }
 
 @media screen and (max-width: 425px) {
-    .iframe{
+    .iframe {
         width: 100%;
         height: 1400px;
     }
-    .col-md-4, .col-md-6{
+    .col-md-4, .col-md-6 {
         margin-top: 5% !important;
     }
-    .hub-overlay-head{
+    .hub-overlay-head {
         padding-top: 55%;
     }
+    .header-line {
+        margin-left: 31%;
+    }
+    /* .overview-line{
+        margin-left: 29%;
+    } */
+}
+
+@media screen and (max-width: 380px) {
+    .vision-img, .mission-img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 2500px) {
+    .header-line {
+        margin-left: 44.5%;
+    }
+    /* .overview-line{
+        margin-left: 46.5%;
+    } */
 }
