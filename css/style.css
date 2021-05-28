@@ -347,7 +347,7 @@ body {
 
 .card-data {
     height: 10rem;
-    background-color: #2980b9;
+    background-color: rgba(41, 128, 185, 0.9);
     position: relative;
     top: 10rem;
     margin-left: -1px;
@@ -363,7 +363,7 @@ body {
     border-top-left-radius: 0%;
     border-bottom-right-radius: 0%;
     transition: 1s;
-    background-color: rgba(41, 128, 185, 0.8);
+    background-color: rgba(41, 128, 185, 0.5);
 }
 
 .textbook-card-front:hover, .book-card-front:hover, .prize-card-front:hover, .award-card-front:hover, .leadership-card-front:hover, .nutrition-card-front:hover, .covid-card-front:hover {
@@ -415,6 +415,31 @@ body {
     text-align: center;
     padding: 15% 5% 5% 5%;
     height: 15rem;
+}
+
+.dropdown-menu {
+    position: absolute !important;
+    left: -260px;
+    width: 300px;
+    background-color: #000;
+}
+.dropdown-menu li{
+    text-align: center;
+    padding: 5% 5% 5% 5% !important;
+}
+.dropdown-menu li a{
+    font-size: 16px;
+    font-family: 'open-sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #2980b9;
+}
+
+.dropdown-menu li a:hover{
+    text-decoration: none;
+}
+.dropdown-menu li:hover{
+    background-color: #f6f6f6;
 }
 
 .para-text {
@@ -560,7 +585,8 @@ body {
     font-family: 'open-sans', sans-serif;
     font-weight: 400;
 }
-.privacy-link:hover{
+
+.privacy-link:hover {
     text-decoration: none;
     color: #2980b9;
 }
