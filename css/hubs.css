@@ -81,6 +81,15 @@
     width: 100%;
 }
 
+.vision-main-banner {
+    background-image: url('../assets/images/vision-hero-banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+
 .content-head {
     padding-top: 5%;
     text-align: center;
@@ -98,6 +107,49 @@
     font-family: 'open-sans', sans-serif;
     font-size: 20px;
     font-weight: 600;
+}
+
+.coalition-content-data {
+    text-align: left;
+    padding: 2% 10% 0% 10%;
+    letter-spacing: 1px;
+    font-family: 'open-sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.coalition-ul {
+    padding-left: 15%;
+    letter-spacing: 1px;
+    font-family: 'open-sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.india-content-head {
+    padding-top: 5%;
+    text-align: left;
+    color: #2980b9;
+    font-family: 'open-sans', sans-serif;
+    letter-spacing: 5px;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.india-content-data {
+    text-align: left;
+    padding: 2% 10% 0% 0%;
+    letter-spacing: 1px;
+    font-family: 'open-sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.india-ul{
+    padding-left: 10%;
+    letter-spacing: 1px;
+    font-family: 'open-sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .hub-content {
