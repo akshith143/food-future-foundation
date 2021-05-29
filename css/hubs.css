@@ -144,12 +144,32 @@
     font-size: 20px;
     font-weight: 600;
 }
-.india-ul{
+
+.india-ul {
     padding-left: 10%;
     letter-spacing: 1px;
     font-family: 'open-sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
+}
+
+.leadership-head {
+    padding-top: 5%;
+    text-align: left;
+    color: #2980b9;
+    font-family: 'open-sans', sans-serif;
+    letter-spacing: 5px;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.leadership-data {
+    text-align: left;
+    padding: 2% 10% 0% 0%;
+    letter-spacing: 1px;
+    font-family: 'open-sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .hub-content {
@@ -189,6 +209,12 @@
     border: 1px solid #6bb46d;
     width: 10rem;
     margin-left: 18rem;
+}
+
+.leadership-line {
+    border: 1px solid #6bb46d;
+    width: 15rem;
+    margin-left: 1rem;
 }
 
 .overview-line {
@@ -242,6 +268,84 @@
 .iframe {
     width: 640px;
     height: 1400px;
+}
+
+.leadership-header-text {
+    text-align: center;
+    padding: 40% 5% 5% 5%;
+    letter-spacing: 1px;
+    font-family: 'open-sans', sans-serif;
+    /* font-size: 700; */
+    color: #fff;
+}
+
+.leadership-card-data:hover {
+    top: 0px;
+    height: 100%;
+    margin: -1px;
+    width: 100%;
+    border-top-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    transition: 2s;
+    background-color: rgba(41, 128, 185, 0.5);
+}
+
+.leadership-para-data {
+    display: none;
+    padding: 10%;
+    text-align: justify;
+    font-family: 'open-sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.ul-list {
+    margin-left: 2%;
+    font-size: 400;
+    font-family: 'open-sans', sans-serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.leadership-card-data:hover .leadership-header-text {
+    display: none;
+}
+
+.leadership-card-data:hover .leadership-para-data {
+    display: block;
+}
+
+.leadership-card-data {
+    height: 100%;
+    background-color: rgba(41, 128, 185, 0.6);
+    position: relative;
+    margin-left: -1px;
+    margin-right: -1px;
+}
+
+.system-insight {
+    background-image: url('../assets/images/food-system-insight.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
+}
+
+.system-speaker {
+    background-image: url('../assets/images/spear.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
+}
+
+.showcase {
+    background-image: url('../assets/images/system-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
 }
 
 @media screen and (max-width: 425px) {
