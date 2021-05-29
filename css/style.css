@@ -266,7 +266,7 @@ body {
 }
 
 .textbook-card-front {
-    background-image: url('../assets/images/book-cover.jpg');
+    background-image: url('../assets/images/book.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
