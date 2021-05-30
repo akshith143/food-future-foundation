@@ -39,24 +39,35 @@
                     <a class="nav-link" href="./global-hub.html">Global Hub </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./leadership-hub.html">Leadership Academy</a>
+                    <a class="nav-link" href="./leadership-hub.html">Leadership Hub</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./coalition.html">CoP.FSTI Academy</a>
+                    <a class="nav-link" href="./coalition.html">CoP.FSTI</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./take-action.html">How to help</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link btn btn-link" type="button" href=""> <i class="fas fa-bars"></i></a>
+                    <div class="dropdown">
+                        <a class="nav-link btn btn-link" data-toggle="dropdown" type="button" href="">
+                            <i class="fas fa-bars"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">India Food System Vision 2030 Report</a></li>
+                            <li><a href="#">India Food System Vision 2030 Prize</a></li>
+                            <li><a href="#">Food and Books @IIC</a></li>
+                            <li><a href="#">National Award For Sustainable Sourcing</a></li>
+                            <li><a href="#">Leadership Hub</a></li>
+                            <li><a href="#">Positive Nutrition Lab</a></li>
+                            <li><a href="#">Food, Hunger and Shifting norms during COVID-19</a></li>
+                        </ul>
+                    </div>
                 </li>
             </ul>
         </div>
     </nav>
     <nav id="sidenav" class="navbar navbar-expand-md fixed-top">
         <a class="navbar-brand" href="../index.html">
-            <img id="nav-logo" src="../assets/images/food-future-foundation-logo-w.svg" alt="Logo"
-                style="width: 60px; height: 60px;">
+            <img id="nav-logo-mobile" src="../assets/images/food-future-foundation-logo-w.svg" alt="Logo">
         </a>
         <button style="margin-top: 5%;" class="btn float-right" onclick="openNav()" type="button">
             <span style="color: #fff;">&#9776;</span>
@@ -67,9 +78,9 @@
             <a class="nav-link" href="./knowledge-hub.html">Knowledge Hub</a>
             <a class="nav-link" href="./action-hub.html">Action Hub</a>
             <a class="nav-link" href="./global-hub.html">Global Hub</a>
-            <a class="nav-link" href="./leadership-hub.html">Leadership Academy</a>
+            <a class="nav-link" href="./leadership-hub.html">Leadership Hub</a>
             <a class="nav-link" href="./copfsti.html">CoP.FSTI</a>
-            <a class="nav-link" href="./take-action.html">How To Help</a>
+            <a class="nav-link" href="./help-form.html">How To Help</a>
         </div>
     </nav>
     <div class="Knowledge-main-banner">
@@ -79,58 +90,57 @@
     </div>
 
     <div class="hub-content">
-        <div class="container">
-            <h2 class="content-head">Change the Narrative</h2>
-            <p class="content-data">Compendium of narrations, stories and images to showcase & foster search of
-                solutions to develop food systems to Mobilize people to drive transformation in food systems through the
-                3E Approach (Engage, Excite & Enable) and Work across boundaries - departmental, organisational or
-                sector
-                at a system level and lead while not in charge, by influencing others.</p>
+        <h2 class="knowledge-content-head">Change the Narrative</h2>
+        <div class="knowledge-header-line"></div>
+        <p class="knowledge-content-data">Compendium of narrations, stories and images to showcase & foster search of
+            solutions to develop food systems to Mobilize people to drive transformation in food systems through the
+            3E Approach (Engage, Excite & Enable) and Work across boundaries - departmental, organisational or
+            sector
+            at a system level and lead while not in charge, by influencing others.</p>
 
-            <h2 class="content-head">Knowledge Resource Center</h2>
-            <div class="row" style="margin-top: 5%;margin-bottom: 5%;">
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="resource-head">Stories & Showcases</h5>
-                            <hr>
-                            <ul class="resource-data">
-                                <li>Stories of community initiatives</li>
-                                <li> Stories of latest innovations</li>
-                                <li>Showcases of government programs</li>
-                                <li>Showcases of industry initiatives</li>
-                                <li>Book discussion</li>
-                            </ul>
-                        </div>
+        <h2 class="knowledge-content-head">Knowledge Resource Center</h2>
+        <div class="knowledge-header-line"></div>
+        <div class="row" style="margin-top: 5%;margin-bottom: 5%;">
+            <div class="col-md-4">
+                <div class="card stories-card-front" id="stories-card-front">
+                    <div class="hub-card-data" onmouseover="mouserHoverIn('stories')"
+                        onmouseout="mouserHoverOut('stories')">
+                        <h5 class="resource-head">Stories & Showcases</h5>
+                        <ul class="resource-data">
+                            <li>Stories of community initiatives</li>
+                            <li> Stories of latest innovations</li>
+                            <li>Showcases of government programs</li>
+                            <li>Showcases of industry initiatives</li>
+                            <li>Book discussion</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="resource-head">Resources</h5>
-                            <hr>
-                            <ul class="resource-data">
-                                <li>Eat Right – A Food Systems Approach Textbook</li>
-                                <li> Curated videos, podcasts, books, reports, case studies, playbooks, cue-cards,
-                                    posters,
-                                    digital libraries, recipes and more</li>
-                                <br>
-                            </ul>
-                        </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card resource-card-front" id="resource-card-front">
+                    <div class="hub-card-data" onmouseover="mouserHoverIn('resource')"
+                        onmouseout="mouserHoverOut('resource')">
+                        <h5 class="resource-head">Resources</h5>
+                        <ul class="resource-data">
+                            <li>Eat Right – A Food Systems Approach Textbook</li>
+                            <li> Curated videos, podcasts, books, reports, case studies, playbooks, cue-cards,
+                                posters,
+                                digital libraries, recipes and more</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="resource-head">Stories & Showcases</h5>
-                            <hr>
-                            <ul class="resource-data">
-                                <li>Directory of experts in food systems with specialized knowledge, tools and other
-                                    resources</li>
-                                <br>
-                                <br><br><br>
-                            </ul>
-                        </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card person-card-front" id="person-card-front">
+                    <div class="hub-card-data" onmouseover="mouserHoverIn('person')"
+                        onmouseout="mouserHoverOut('person')">
+                        <h5 class="resource-head">Resource Person</h5>
+                        <ul class="resource-data">
+                            <li>Eat Right – A Food Systems Approach Textbook</li>
+                            <li> Curated videos, podcasts, books, reports, case studies, playbooks, cue-cards,
+                                posters,
+                                digital libraries, recipes and more</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -143,9 +153,9 @@
                 <h2 class="touch-head">Stay in touch</h2>
 
                 <div class="input-group">
-                    <input type="text" class="form-control input-mail" placeholder="Email">
+                    <input type="text" class="form-control input-mail" placeholder="EMAIL">
                     <div class="input-group-append">
-                        <button class="btn subscribe" type="button">Subscribe</button>
+                        <button class="btn subscribe" type="button">SUBSCRIBE</button>
                     </div>
                 </div>
                 <div class="social-icons">
@@ -166,17 +176,20 @@
                     </ul>
                 </div>
             </div>
-        </div>
-        <div class="row" style="margin-top: 2%;">
-            <div class="col-md-6">
-                <p class="footer-copyrights">Copyright 2021, <b>Food Future Foundation</b></p>
+            <div style="width: 100%; border: 0.5px solid #f4f4f4;"></div>
+            <div class="row" style="margin-top: 2%;">
+                <div class="col-md-6">
+                    <p class="footer-copyrights">Copyright 2021, <b>Food
+                            Future Foundation</b></p>
+                </div>
+                <div class="col-md-6">
+                    <p class="footer-terms"><a class="privacy-link" href="./pages/terms-conditions.html">Terms &
+                            Conditions</a> | <a class="privacy-link" href="">Privacy
+                            Policy</a></p>
+                </div>
             </div>
-            <div class="col-md-6">
-                <p class="footer-terms"><a style="color: #fff;" href="./pages/terms-conditions.html">Terms &
-                        Conditions</a> | <a style="color: #fff;" href="">Privacy
-                        Policy</a></p>
-            </div>
         </div>
+
     </footer>
 
     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>

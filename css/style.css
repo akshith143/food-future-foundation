@@ -91,7 +91,7 @@ body {
     margin-top: -1.6rem;
 }
 
-.nav-item:after {
+.navbar-nav .nav-item:after {
     content: '';
     display: block;
     margin: auto;
@@ -100,7 +100,6 @@ body {
     background: transparent;
     transition: width .5s ease, background-color .5s ease;
 }
-
 .nav-item:hover:after {
     width: 100%;
     background: #2980b9;
@@ -220,7 +219,7 @@ body {
 }
 
 .about-right {
-    padding: 5% 5% 0% 0%;
+    padding: 0% 5% 0% 0%;
     text-align: center;
 }
 
@@ -237,7 +236,7 @@ body {
 .about-para {
     letter-spacing: 1px;
     text-align: left;
-    padding: 5% 5% 0% 5%;
+    padding: 5% 0% 0% 5%;
     font-size: 16px;
     font-weight: 600;
     font-family: 'open-sans', sans-serif;
@@ -266,7 +265,7 @@ body {
 }
 
 .textbook-card-front {
-    background-image: url('../assets/images/book.jpg');
+    background-image: url('../assets/images/efarming1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -276,7 +275,7 @@ body {
 }
 
 .book-card-front {
-    background-image: url('../assets/images/discussion.jpg');
+    background-image: url('../assets/images/book-cover.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -286,7 +285,7 @@ body {
 }
 
 .prize-card-front {
-    background-image: url('../assets/images/award-2.jpg');
+    background-image: url('../assets/images/2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -296,7 +295,7 @@ body {
 }
 
 .award-card-front {
-    background-image: url('../assets/images/award-img.jpg');
+    background-image: url('../assets/images/farmer.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -306,7 +305,7 @@ body {
 }
 
 .leadership-card-front {
-    background-image: url('../assets/images/leadership-1.jpg');
+    background-image: url('../assets/images/innovation.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -316,7 +315,7 @@ body {
 }
 
 .nutrition-card-front {
-    background-image: url('../assets/images/nutrition-4.jpg');
+    background-image: url('../assets/images/positive-nutrition.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -347,7 +346,7 @@ body {
 
 .card-data {
     height: 10rem;
-    background-color: rgba(41, 128, 185, 0.9);
+    background-color: rgba(41, 128, 185, 1);
     position: relative;
     top: 10rem;
     margin-left: -1px;
@@ -365,10 +364,9 @@ body {
     transition: 1s;
     background-color: rgba(41, 128, 185, 0.5);
 }
-
 .textbook-card-front:hover, .book-card-front:hover, .prize-card-front:hover, .award-card-front:hover, .leadership-card-front:hover, .nutrition-card-front:hover, .covid-card-front:hover {
     transition: 1s;
-    border-bottom-right-radius: 0%;
+    /* border-bottom-right-radius: 0%; */
 }
 
 .card-data .header-text {

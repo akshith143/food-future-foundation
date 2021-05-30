@@ -115,7 +115,7 @@
     letter-spacing: 1px;
     font-family: 'open-sans', sans-serif;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .coalition-ul {
@@ -142,7 +142,7 @@
     letter-spacing: 1px;
     font-family: 'open-sans', sans-serif;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .india-ul {
@@ -169,11 +169,32 @@
     letter-spacing: 1px;
     font-family: 'open-sans', sans-serif;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 400;
+}
+
+.nav-pills {
+    margin-top: 5%;
+}
+
+.pills-li {
+    padding: 1%;
+}
+
+.pills-li a {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'open-sans', sans-serif;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: rgb(48, 47, 47);
+}
+
+.act {
+    background-color: #2980b9;
 }
 
 .hub-content {
-    padding: 5%;
+    padding: 5% 0% 5% 5%;
 }
 
 .mission-img {
@@ -182,33 +203,85 @@
     height: 400px;
 }
 
-.vision-img {
+/* .vision-img {
     border-radius: 50%;
     width: 400px;
     height: 400px;
-}
+} */
 
 .mission-row {
     padding: 5% 0% 5% 5%;
 }
 
-.vision-row {
-    padding: 5% 0% 5% 5%;
-    background-color: #2980b9;
+.mission-content-head {
+    padding-top: 5%;
+    text-align: left;
+    color: #2980b9;
+    font-family: 'open-sans', sans-serif;
+    letter-spacing: 5px;
+    font-size: 27px;
+    font-weight: 700;
 }
 
-.vision-row .content-head {
+.mission-content-data {
+    text-align: left;
+    padding: 5% 10% 0% 2%;
+    letter-spacing: 1px;
+    font-family: 'open-sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.vision-row {
+    padding: 5%;
+    /* background-color: #2980b9; */
+    background-image: url('../assets/images/vision.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.vision-content-head {
+    padding-top: 2%;
+    text-align: center;
+    color: #fff;
+    font-family: 'open-sans', sans-serif;
+    letter-spacing: 5px;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.vision-content-data {
+    text-align: center;
+    padding: 5% 10% 0% 2%;
+    letter-spacing: 1px;
+    font-family: 'open-sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
     color: #fff;
 }
 
-.content {
-    margin-top: 5%;
+.vision-header-line {
+    border: 1px solid #6bb46d;
+    width: 10rem;
+    margin-left: 29.5rem;
+}
+
+.vision-content {
+    background-color: rgba(41, 128, 185, 0.5);
+    padding: 0% 5% 5% 5%;
 }
 
 .header-line {
     border: 1px solid #6bb46d;
     width: 10rem;
     margin-left: 18rem;
+}
+
+.mission-header-line {
+    border: 1px solid #6bb46d;
+    width: 10rem;
 }
 
 .leadership-line {
@@ -239,7 +312,7 @@
     letter-spacing: 1px;
     font-family: 'open-sans', sans-serif;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .overview-list {
@@ -250,17 +323,144 @@
     font-weight: 400;
 }
 
-.resource-head {
+.knowledge-content-head {
+    padding-top: 5%;
+    text-align: left;
+    color: #2980b9;
+    font-family: 'open-sans', sans-serif;
+    letter-spacing: 5px;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.knowledge-content-data {
+    text-align: left;
+    padding: 2% 0% 0% 1%;
+    letter-spacing: 1px;
+    font-family: 'open-sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.knowledge-header-line {
+    border: 1px solid #6bb46d;
+    width: 25rem;
+}
+
+.stories-card-front {
+    background-image: url('../assets/images/initiatives-banners.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 25rem;
+    border-bottom-right-radius: 40%;
+}
+
+.resource-card-front {
+    background-image: url('../assets/images/resource.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 25rem;
+    border-bottom-right-radius: 40%;
+}
+
+.person-card-front {
+    background-image: url('../assets/images/res-person.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 25rem;
+    border-bottom-right-radius: 40%;
+}
+
+.children-card-front {
+    background-image: url('../assets/images/child.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 25rem;
+    border-bottom-right-radius: 40%;
+}
+
+.youth-card-front {
+    background-image: url('../assets/images/youth.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 25rem;
+    border-bottom-right-radius: 40%;
+}
+
+.citizen-card-front {
+    background-image: url('../assets/images/citizens.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 25rem;
+    border-bottom-right-radius: 40%;
+}
+
+.farmer-card-front {
+    background-image: url('../assets/images/farmer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 25rem;
+    border-bottom-right-radius: 40%;
+}
+
+.hub-card-data {
+    height: 12.5rem;
+    background-color: rgba(41, 128, 185, 1);
+    position: relative;
+    top: 12.5rem;
+    margin-left: -1px;
+    margin-right: -1px;
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
+
+.hub-card-data:hover {
+    top: 0px;
+    height: 25rem;
+    margin: -1px;
+    border-top-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    transition: 1s;
+    background-color: rgba(41, 128, 185, 0.5);
+}
+
+.stories-card-front:hover, .resource-card-front:hover, .person-card-front:hover, .children-card-front:hover, .youth-card-front:hover, .citizen-card-front:hover, .farmer-card-front:hover {
+    transition: 1s;
+}
+
+.hub-card-data .resource-head {
+    padding: 20% 5% 0% 5%;
+    color: #fff;
+    font-size: 16px;
     text-align: center;
     font-family: 'open-sans', sans-serif;
-    letter-spacing: 1px;
-    padding-top: 5%;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.hub-card-data:hover .resource-head {
+    display: none;
 }
 
 .resource-data {
-    padding: 5%;
+    display: none;
+}
+
+.hub-card-data:hover .resource-data {
+    display: block;
+    color: #fff;
     letter-spacing: 1px;
-    text-align: left !important;
+    text-align: left;
+    margin: 20% 5% 5% 5%;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 /* end of knowledge hub */

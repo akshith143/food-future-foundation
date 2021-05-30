@@ -52,3 +52,23 @@ function showLessi(i) {
     document.getElementById('show-more' + i).style.display = 'block';
     document.getElementById('show-less' + i).style.display = 'none';
 }
+
+
+$(".nav .pills-li").on("click", function () {
+    $(".nav").find(".act").removeClass("act");
+    $(this).addClass("act");
+});
+
+function mouserHoverIn(str) {
+    console.log(str);
+    // document.getElementById('card-data').style.borderBottomRightRadius = "0%";
+    // document.getElementById('card-data').style.borderTopLeftRadius = "0%";
+    document.getElementById(str + '-card-front').style.borderBottomRightRadius = "0%";
+}
+
+function mouserHoverOut(str) {
+    console.log(str);
+    // document.getElementById('card-data').style.borderBottomRightRadius = "40%";
+    // document.getElementById('card-data').style.borderTopLeftRadius = "40%";
+    document.getElementById(str + '-card-front').style.borderBottomRightRadius = "40%";
+}
