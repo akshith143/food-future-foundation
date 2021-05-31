@@ -27,7 +27,17 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav ml-auto" id="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="./about.html">About</a>
+                    <div class="dropdown">
+                        <a class="nav-link btn btn-link" data-toggle="dropdown" type="button" href="">
+                            About</a>
+                        <ul class="dropdown-menu" style="position: absolute !important;
+                        width: 300px;
+                        left: -120px !important;
+                        background-color: #000;">
+                            <li><a href="./about.html">Overview</a></li>
+                            <li><a href="./team.html">Team</a></li>
+                        </ul>
+                    </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./knowledge-hub.html">Knowledge Hub</a>
@@ -90,43 +100,41 @@
     </div>
 
     <div class="hub-content">
-        <div class="container">
-            <h2 class="content-head">Group of regional hubs across the world aimed at tackling food safety & security in
-                LMICs
-            </h2>
-            <div class="row" style="margin-top: 5%;margin-bottom: 5%;">
-                <div class="col-md-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="resource-head">Transforming Food Systems</h5>
-                            <hr>
-                            <ul class="resource-data">
-                                <li>Unveil the Food Safety Toolkit at the UNFSS ’21.</li>
-                                <li>Develop training & learning resources.</li>
-                                <li>Conduct workshops on Systems Leadership for Country Leadership Teams.</li>
-                                <li>Develop strategies & action plans for campaigns to encourage food safety.</li>
-                                <li>Assist other organizations towards their food safety efforts.</li>
-                                <li>Create & update the Global Food Safety Index to monitor, measure & promote progress
-                                    in Food Safety across & within countries.</li>
-                            </ul>
-                        </div>
+        <h2 class="content-head">Group of regional hubs across the world aimed at tackling food safety & security in
+            LMICs
+        </h2>
+        <div class="row" style="margin-top: 5%;margin-bottom: 5%;">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="resource-head">Transforming Food Systems</h5>
+                        <hr>
+                        <ul class="resource-data">
+                            <li>Unveil the Food Safety Toolkit at the UNFSS ’21.</li>
+                            <li>Develop training & learning resources.</li>
+                            <li>Conduct workshops on Systems Leadership for Country Leadership Teams.</li>
+                            <li>Develop strategies & action plans for campaigns to encourage food safety.</li>
+                            <li>Assist other organizations towards their food safety efforts.</li>
+                            <li>Create & update the Global Food Safety Index to monitor, measure & promote progress
+                                in Food Safety across & within countries.</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="resource-head">Hunger & Malnutrition Addressal
-                            </h5>
-                            <hr>
-                            <ul class="resource-data">
-                                <li>Facilitate export to food-deficit nations.</li>
-                                <li>Work with the Indian Rice Export Promotion Council.</li>
-                                <li>Develop capacities for Rice Fortification in India, and create demand for fortified
-                                    rice in in food-deficit nations.</li>
-                                <li>Address logistical challenges which hinder food security in LMICs.</li>
-                                <li>Collaborate with the World Food Program (WFP) and other agencies.</li><br>
-                            </ul>
-                        </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="resource-head">Hunger & Malnutrition Addressal
+                        </h5>
+                        <hr>
+                        <ul class="resource-data">
+                            <li>Facilitate export to food-deficit nations.</li>
+                            <li>Work with the Indian Rice Export Promotion Council.</li>
+                            <li>Develop capacities for Rice Fortification in India, and create demand for fortified
+                                rice in in food-deficit nations.</li>
+                            <li>Address logistical challenges which hinder food security in LMICs.</li>
+                            <li>Collaborate with the World Food Program (WFP) and other agencies.</li><br>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -139,9 +147,9 @@
                 <h2 class="touch-head">Stay in touch</h2>
 
                 <div class="input-group">
-                    <input type="text" class="form-control input-mail" placeholder="Email">
+                    <input type="text" class="form-control input-mail" placeholder="EMAIL">
                     <div class="input-group-append">
-                        <button class="btn subscribe" type="button">Subscribe</button>
+                        <button class="btn subscribe" type="button">SUBSCRIBE</button>
                     </div>
                 </div>
                 <div class="social-icons">
@@ -162,17 +170,20 @@
                     </ul>
                 </div>
             </div>
-        </div>
-        <div class="row" style="margin-top: 2%;">
-            <div class="col-md-6">
-                <p class="footer-copyrights">Copyright 2021, <b>Food Future Foundation</b></p>
+            <div style="width: 100%; border: 0.5px solid #f4f4f4;"></div>
+            <div class="row" style="margin-top: 2%;">
+                <div class="col-md-6">
+                    <p class="footer-copyrights">Copyright 2021, <b>Food
+                            Future Foundation</b></p>
+                </div>
+                <div class="col-md-6">
+                    <p class="footer-terms"><a class="privacy-link" href="./pages/terms-conditions.html">Terms &
+                            Conditions</a> | <a class="privacy-link" href="">Privacy
+                            Policy</a></p>
+                </div>
             </div>
-            <div class="col-md-6">
-                <p class="footer-terms"><a style="color: #fff;" href="./pages/terms-conditions.html">Terms &
-                        Conditions</a> | <a style="color: #fff;" href="">Privacy
-                        Policy</a></p>
-            </div>
         </div>
+
     </footer>
 
     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>

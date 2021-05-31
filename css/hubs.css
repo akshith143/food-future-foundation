@@ -40,7 +40,7 @@
     font-family: 'open-sans', sans-serif;
     letter-spacing: 1px;
     font-weight: 700;
-    font-size: 42px;
+    font-size: 44px;
 }
 
 .about-main-banner {
@@ -70,6 +70,15 @@
     width: 100%;
 }
 
+.team-main-banner {
+    background-image: url('../assets/images/team.jpg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+
 /* knowledge hub */
 
 .Knowledge-main-banner {
@@ -82,6 +91,15 @@
 }
 
 .vision-main-banner {
+    background-image: url('../assets/images/efarming1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+
+.coaliation-main-banner {
     background-image: url('../assets/images/vision-hero-banner.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -96,8 +114,8 @@
     color: #2980b9;
     font-family: 'open-sans', sans-serif;
     letter-spacing: 5px;
-    font-size: 27px;
-    font-weight: 700;
+    font-size: 28px;
+    font-weight: 400;
 }
 
 .content-data {
@@ -105,16 +123,16 @@
     padding: 2% 10% 0% 10%;
     letter-spacing: 1px;
     font-family: 'open-sans', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 22px;
+    font-weight: 400;
 }
 
 .coalition-content-data {
     text-align: left;
-    padding: 2% 10% 0% 0%;
+    padding: 2% 0% 0% 0%;
     letter-spacing: 1px;
     font-family: 'open-sans', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 400;
 }
 
@@ -132,16 +150,16 @@
     color: #2980b9;
     font-family: 'open-sans', sans-serif;
     letter-spacing: 5px;
-    font-size: 27px;
-    font-weight: 700;
+    font-size: 28px;
+    font-weight: 400;
 }
 
 .india-content-data {
     text-align: left;
-    padding: 2% 10% 0% 0%;
+    padding: 2% 0% 0% 0%;
     letter-spacing: 1px;
     font-family: 'open-sans', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 400;
 }
 
@@ -159,16 +177,16 @@
     color: #2980b9;
     font-family: 'open-sans', sans-serif;
     letter-spacing: 5px;
-    font-size: 27px;
-    font-weight: 700;
+    font-size: 28px;
+    font-weight: 400;
 }
 
 .leadership-data {
     text-align: left;
-    padding: 2% 10% 0% 0%;
+    padding: 2% 0% 0% 0%;
     letter-spacing: 1px;
     font-family: 'open-sans', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 400;
 }
 
@@ -178,19 +196,27 @@
 
 .pills-li {
     padding: 1%;
+    border-bottom: 1px solid #b7b7b7;
 }
 
 .pills-li a {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     font-family: 'open-sans', sans-serif;
     letter-spacing: 1px;
     text-decoration: none;
-    color: rgb(48, 47, 47);
+    color: #b7b7b7;
+}
+.tab-content{
+    border-bottom: 1px solid #b7b7b7;
 }
 
 .act {
-    background-color: #2980b9;
+    color: #2980b9;
+    border-bottom: 2px solid #2980b9
+}
+.act a{
+    color: #2980b9;
 }
 
 .hub-content {
@@ -219,8 +245,8 @@
     color: #2980b9;
     font-family: 'open-sans', sans-serif;
     letter-spacing: 5px;
-    font-size: 27px;
-    font-weight: 700;
+    font-size: 28px;
+    font-weight: 400;
 }
 
 .mission-content-data {
@@ -228,7 +254,7 @@
     padding: 5% 10% 0% 2%;
     letter-spacing: 1px;
     font-family: 'open-sans', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 400;
 }
 
@@ -248,8 +274,8 @@
     color: #fff;
     font-family: 'open-sans', sans-serif;
     letter-spacing: 5px;
-    font-size: 27px;
-    font-weight: 700;
+    font-size: 28px;
+    font-weight: 400;
 }
 
 .vision-content-data {
@@ -257,7 +283,7 @@
     padding: 5% 10% 0% 2%;
     letter-spacing: 1px;
     font-family: 'open-sans', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 400;
     color: #fff;
 }
@@ -302,8 +328,8 @@
     color: #2980b9;
     font-family: 'open-sans', sans-serif;
     letter-spacing: 5px;
-    font-size: 27px;
-    font-weight: 700;
+    font-size: 28px;
+    font-weight: 400;
 }
 
 .overview-data {
@@ -311,7 +337,7 @@
     padding: 2% 0% 0% 1%;
     letter-spacing: 1px;
     font-family: 'open-sans', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 400;
 }
 
@@ -329,7 +355,7 @@
     color: #2980b9;
     font-family: 'open-sans', sans-serif;
     letter-spacing: 5px;
-    font-size: 27px;
+    font-size: 28px;
     font-weight: 700;
 }
 
@@ -338,7 +364,7 @@
     padding: 2% 0% 0% 1%;
     letter-spacing: 1px;
     font-family: 'open-sans', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 400;
 }
 
@@ -409,6 +435,7 @@
     height: 25rem;
     border-bottom-right-radius: 40%;
 }
+
 .market-card-front {
     background-image: url('../assets/images/market.jpeg');
     background-repeat: no-repeat;
@@ -417,7 +444,8 @@
     height: 25rem;
     border-bottom-right-radius: 40%;
 }
-.network-card-front{
+
+.network-card-front {
     background-image: url('../assets/images/about-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -454,10 +482,10 @@
 .hub-card-data .resource-head {
     padding: 20% 5% 0% 5%;
     color: #fff;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     font-family: 'open-sans', sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     letter-spacing: 2px;
 }
 
@@ -475,8 +503,8 @@
     letter-spacing: 1px;
     text-align: left;
     margin: 20% 5% 5% 5%;
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 /* end of knowledge hub */
@@ -562,6 +590,11 @@
     background-size: cover;
     background-position: center;
     height: 20rem;
+}
+
+.tabs-content{
+    background-color: #f6f6f6;
+    padding: 0% 1% 5% 1%;
 }
 
 @media screen and (max-width: 425px) {

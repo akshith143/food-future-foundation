@@ -80,8 +80,8 @@ body {
     color: #fff;
     letter-spacing: 1px;
     font-family: 'open-sans', sans-serif;
-    font-size: 16px;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 #nav-logo {
@@ -100,6 +100,7 @@ body {
     background: transparent;
     transition: width .5s ease, background-color .5s ease;
 }
+
 .nav-item:hover:after {
     width: 100%;
     background: #2980b9;
@@ -169,7 +170,7 @@ body {
 }
 
 .data {
-    padding: 5%;
+    padding: 7% 1% 5% 1%;
 }
 
 .about-left {
@@ -178,7 +179,6 @@ body {
 
 .about-us {
     height: 100%;
-    background-color: #f6f6f6;
     padding: 5% 0% 5% 0%;
 }
 
@@ -264,14 +264,17 @@ body {
     text-decoration: none;
 }
 
+.info{
+    background-color:#f6f6f6;
+}
 .textbook-card-front {
-    background-image: url('../assets/images/efarming1.jpg');
+    background-image: url('../assets/images/efarming1.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 20rem;
-    width: 17rem;
-    border-bottom-right-radius: 40%;
+    width: 872px;
+    height: 490px;
+    border-radius: 2%;
 }
 
 .book-card-front {
@@ -279,9 +282,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 20rem;
-    width: 17rem;
-    border-bottom-right-radius: 40%;
+    height: 490px;
+    width: 424px;
+    border-radius: 2%;
 }
 
 .prize-card-front {
@@ -289,9 +292,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 20rem;
-    width: 17rem;
-    border-bottom-right-radius: 40%;
+    height: 490px;
+    width: 424px;
+    border-radius: 2%;
 }
 
 .award-card-front {
@@ -299,9 +302,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 20rem;
-    width: 17rem;
-    border-bottom-right-radius: 40%;
+    height: 490px;
+    width: 424px;
+    border-radius: 2%;
 }
 
 .leadership-card-front {
@@ -309,9 +312,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 20rem;
-    width: 17rem;
-    border-bottom-right-radius: 40%;
+    height: 490px;
+    width: 424px;
+    border-radius: 2%;
 }
 
 .nutrition-card-front {
@@ -319,9 +322,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 20rem;
-    width: 17rem;
-    border-bottom-right-radius: 40%;
+    height: 490px;
+    width: 424px;
+    border-radius: 2%;
 }
 
 .covid-card-front {
@@ -329,9 +332,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 20rem;
-    width: 17rem;
-    border-bottom-right-radius: 40%;
+    height: 490px;
+    width: 872px;
+    border-radius: 2%;
 }
 
 .card-overlay {
@@ -345,32 +348,41 @@ body {
 }
 
 .card-data {
-    height: 10rem;
-    background-color: rgba(41, 128, 185, 1);
+    height: 490px;
+    background-image:linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.6));
     position: relative;
-    top: 10rem;
+    /* top: 400px; */
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
     margin-left: -1px;
     margin-right: -1px;
-    border-top-left-radius: 40%;
-    border-bottom-right-radius: 40%;
 }
 
 .card-data:hover {
     top: 0px;
-    height: 20rem;
+    height: 490px;
     margin: -1px;
-    border-top-left-radius: 0%;
-    border-bottom-right-radius: 0%;
     transition: 1s;
-    background-color: rgba(41, 128, 185, 0.5);
+    border-radius: 2%;
+    background-color: rgba(0, 0, 0, 0.5);
 }
+
 .textbook-card-front:hover, .book-card-front:hover, .prize-card-front:hover, .award-card-front:hover, .leadership-card-front:hover, .nutrition-card-front:hover, .covid-card-front:hover {
     transition: 1s;
     /* border-bottom-right-radius: 0%; */
 }
 
 .card-data .header-text {
-    padding: 20% 5% 0% 5%;
+    padding: 95% 5% 0% 5%;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'open-sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.card-data .f-header-text {
+    padding: 45% 5% 0% 5%;
     color: #fff;
     font-size: 16px;
     text-align: center;
@@ -383,11 +395,29 @@ body {
     display: none;
 }
 
+.card-data:hover .f-header-text {
+    display: none;
+}
+
+
 .para-data {
     display: none;
 }
 
 .card-data:hover .para-data {
+    display: block;
+    color: #fff;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 35% 5% 5% 5%;
+    font-size: 14px;
+    font-weight: 600;
+}
+.f-para-data {
+    display: none;
+}
+
+.card-data:hover .f-para-data {
     display: block;
     color: #fff;
     letter-spacing: 1px;
@@ -398,19 +428,26 @@ body {
 }
 
 .quotes {
-    background-image: url('../assets/images/fields.jpg');
+    background-image: url('../assets/images/Bitmap.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     height: 100%;
     width: 100%;
+    /* padding: 5%; */
+}
+
+.quote-overlay {
+    background-color: rgba(41, 128, 185, 0.6);
     padding: 5%;
+    height: 100%;
+    width: 100%;
 }
 
 .quote-container {
     border-radius: 15px;
-    background-color: rgba(41, 128, 185, 0.6);
+    background-color: rgba(222, 234, 236, 0.8);
     text-align: center;
     padding: 15% 5% 5% 5%;
     height: 15rem;
@@ -422,11 +459,13 @@ body {
     width: 300px;
     background-color: #000;
 }
-.dropdown-menu li{
+
+.dropdown-menu li {
     text-align: center;
     padding: 5% 5% 5% 5% !important;
 }
-.dropdown-menu li a{
+
+.dropdown-menu li a {
     font-size: 16px;
     font-family: 'open-sans', sans-serif;
     font-weight: 700;
@@ -434,17 +473,45 @@ body {
     color: #2980b9;
 }
 
-.dropdown-menu li a:hover{
+.dropdown-menu li a:hover {
     text-decoration: none;
 }
-.dropdown-menu li:hover{
+
+.dropdown-menu li:hover {
+    background-color: #f6f6f6;
+}
+
+.about-dropdown-menu{
+    position: absolute !important;
+    width: 300px;
+    background-color: #000;
+}
+
+.about-dropdown-menu li {
+    text-align: center;
+    padding: 5% 5% 5% 5% !important;
+}
+
+.about-dropdown-menu li a {
+    font-size: 16px;
+    font-family: 'open-sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #2980b9;
+}
+
+.about-dropdown-menu li a:hover {
+    text-decoration: none;
+}
+
+.about-dropdown-menu li:hover {
     background-color: #f6f6f6;
 }
 
 .para-text {
     font-size: 16px;
     letter-spacing: 1px;
-    color: #ecf0f1;
+    color: #000;
     font-family: 'open-sans-italic', sans-serif;
     font-weight: 400;
 }
@@ -452,7 +519,7 @@ body {
 .name-author {
     font-family: 'open-sans-light', sans-serif;
     letter-spacing: 1px;
-    color: #ecf0f1;
+    color: #000;
     font-size: 18px;
     font-weight: 600;
 }
@@ -489,6 +556,7 @@ body {
 .partner-content {
     padding: 2% 0% 10% 0%;
 }
+
 
 /* scroll top */
 
