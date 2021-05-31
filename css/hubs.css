@@ -194,7 +194,7 @@
 }
 
 .hub-content {
-    padding: 5% 0% 5% 5%;
+    padding: 5% 5% 5% 5%;
 }
 
 .mission-img {
@@ -409,6 +409,22 @@
     height: 25rem;
     border-bottom-right-radius: 40%;
 }
+.market-card-front {
+    background-image: url('../assets/images/market.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 25rem;
+    border-bottom-right-radius: 40%;
+}
+.network-card-front{
+    background-image: url('../assets/images/about-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 25rem;
+    border-bottom-right-radius: 40%;
+}
 
 .hub-card-data {
     height: 12.5rem;
@@ -431,7 +447,7 @@
     background-color: rgba(41, 128, 185, 0.5);
 }
 
-.stories-card-front:hover, .resource-card-front:hover, .person-card-front:hover, .children-card-front:hover, .youth-card-front:hover, .citizen-card-front:hover, .farmer-card-front:hover {
+.stories-card-front:hover, .resource-card-front:hover, .person-card-front:hover, .children-card-front:hover, .youth-card-front:hover, .citizen-card-front:hover, .farmer-card-front:hover, .market-card-front:hover, .network-card-front:hover {
     transition: 1s;
 }
 
