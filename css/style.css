@@ -275,68 +275,68 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 872px;
-    height: 490px;
+   /* width: 872px;
+    height: 490px;*/
     border-radius: 2%;
 }
 
 .book-card-front {
-    background-image: url('../assets/images/book-cover.jpg');
+    background-image: url('../assets/images/book-cover.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 490px;
-    width: 424px;
+    /*height: 490px;
+    width: 424px;*/
     border-radius: 2%;
 }
 
 .prize-card-front {
-    background-image: url('../assets/images/2.jpg');
+    background-image: url('../assets/images/2.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 490px;
-    width: 424px;
+    /*height: 490px;
+    width: 424px;*/
     border-radius: 2%;
 }
 
 .award-card-front {
-    background-image: url('../assets/images/farmer.jpg');
+    background-image: url('../assets/images/farmer.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 490px;
-    width: 424px;
+    /*height: 490px;
+    width: 424px;*/
     border-radius: 2%;
 }
 
 .leadership-card-front {
-    background-image: url('../assets/images/innovation.jpg');
+    background-image: url('../assets/images/innovation.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 490px;
-    width: 424px;
+   /* height: 490px;
+    width: 424px;*/
     border-radius: 2%;
 }
 
 .nutrition-card-front {
-    background-image: url('../assets/images/positive-nutrition.jpg');
+    background-image: url('../assets/images/positive-nutrition.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 490px;
-    width: 424px;
+   /* height: 490px;
+    width: 424px;*/
     border-radius: 2%;
 }
 
 .covid-card-front {
-    background-image: url('../assets/images/covid.jpg');
+    background-image: url('../assets/images/covid.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 490px;
-    width: 872px;
+    /*height: 490px;
+    width: 872px;*/
     border-radius: 2%;
 }
 
