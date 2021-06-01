@@ -379,7 +379,7 @@
     background-size: cover;
     background-position: center;
     height: 25rem;
-    border-bottom-right-radius: 40%;
+    /* border-bottom-right-radius: 40%; */
 }
 
 .resource-card-front {
@@ -388,7 +388,7 @@
     background-size: cover;
     background-position: center;
     height: 25rem;
-    border-bottom-right-radius: 40%;
+    /* border-bottom-right-radius: 40%; */
 }
 
 .person-card-front {
@@ -397,7 +397,7 @@
     background-size: cover;
     background-position: center;
     height: 25rem;
-    border-bottom-right-radius: 40%;
+    /* border-bottom-right-radius: 40%; */
 }
 
 .children-card-front {
@@ -406,7 +406,7 @@
     background-size: cover;
     background-position: center;
     height: 25rem;
-    border-bottom-right-radius: 40%;
+    /* border-bottom-right-radius: 40%; */
 }
 
 .youth-card-front {
@@ -415,7 +415,7 @@
     background-size: cover;
     background-position: center;
     height: 25rem;
-    border-bottom-right-radius: 40%;
+    /* border-bottom-right-radius: 40%; */
 }
 
 .citizen-card-front {
@@ -424,7 +424,7 @@
     background-size: cover;
     background-position: center;
     height: 25rem;
-    border-bottom-right-radius: 40%;
+    /* border-bottom-right-radius: 40%; */
 }
 
 .farmer-card-front {
@@ -433,7 +433,7 @@
     background-size: cover;
     background-position: center;
     height: 25rem;
-    border-bottom-right-radius: 40%;
+    /* border-bottom-right-radius: 40%; */
 }
 
 .market-card-front {
@@ -442,7 +442,7 @@
     background-size: cover;
     background-position: center;
     height: 25rem;
-    border-bottom-right-radius: 40%;
+    /* border-bottom-right-radius: 40%; */
 }
 
 .network-card-front {
@@ -451,15 +451,15 @@
     background-size: cover;
     background-position: center;
     height: 25rem;
-    border-bottom-right-radius: 40%;
+    /* border-bottom-right-radius: 40%; */
 }
 .transforming-card-front{
-    background-image: url('../assets/images/about-bg.jpg');
+    background-image: url('../assets/images/image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 25rem;
-    border-bottom-right-radius: 40%;
+    /* border-bottom-right-radius: 40%; */
 }
 
 .hunger-card-front{
@@ -468,7 +468,7 @@
     background-size: cover;
     background-position: center;
     height: 25rem;
-    border-bottom-right-radius: 40%;
+    /* border-bottom-right-radius: 40%; */
 }
 
 .hub-card-data {
@@ -496,8 +496,8 @@
     transition: 1s;
 }
 
-.hub-card-data .resource-head {
-    padding: 20% 5% 0% 5%;
+.card-data .resource-head {
+    padding: 80% 5% 0% 5%;
     color: #fff;
     font-size: 18px;
     text-align: center;
@@ -506,7 +506,7 @@
     letter-spacing: 2px;
 }
 
-.hub-card-data:hover .resource-head {
+.card-data:hover .resource-head {
     display: none;
 }
 
@@ -514,7 +514,7 @@
     display: none;
 }
 
-.hub-card-data:hover .resource-data {
+.card-data:hover .resource-data {
     display: block;
     color: #fff;
     letter-spacing: 1px;
@@ -524,8 +524,8 @@
     font-weight: 400;
 }
 
-.hub-card-data .global-resource-head {
-    padding: 15% 5% 0% 5%;
+.card-data .global-resource-head {
+    padding: 45% 5% 0% 5%;
     color: #fff;
     font-size: 18px;
     text-align: center;
@@ -534,7 +534,7 @@
     letter-spacing: 2px;
 }
 
-.hub-card-data:hover .global-resource-head {
+.card-data:hover .global-resource-head {
     display: none;
 }
 
@@ -542,7 +542,7 @@
     display: none;
 }
 
-.hub-card-data:hover .global-resource-data {
+.card-data:hover .global-resource-data {
     display: block;
     color: #fff;
     letter-spacing: 1px;
