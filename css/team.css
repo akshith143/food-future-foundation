@@ -17,27 +17,76 @@
     font-family: 'open-sans-light';
     src: url('../assets/fonts/Open_Sans/OpenSans-Light.ttf');
 }
-.team-img{
-    width: 200px;
-    height: 200px;
+
+.team-img {
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
-.team-card{
+
+.team-card {
     height: 100%;
+    padding: 5%;
+    border-radius: 10px;
+    width: 425px;
+    height: 486px;
+    background-color: #454545;
 }
-.team-content-data{
-    padding:5% 2% 5% 2%;
+
+.team-content-data {
+    padding: 5% 2% 5% 2%;
     letter-spacing: 1px;
     text-align: left;
-    font-family: 'open-sans',sans-serif;
+    font-family: 'open-sans', sans-serif;
     font-size: 22px;
     font-weight: 400;
 }
-.team-tabs-content{
-    height: 100%;
-    padding:5% 2% 5% 2%;
+
+
+.team-data{
+    padding: 5% 2% 0% 2%;
+}
+.team-nav-pills{
+    margin-top: 0% !important;
 }
 
-.tab-content{
+.team-tabs-content {
+    height: 100%;
+    padding: 3% 2% 5% 2%;
+    background-color: #f6f6f6;
+}
+
+.tab-content {
     height: 100% !important;
+}
+
+.card-team-head {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'open-sans', sans-serif;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.card-team-about {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'open-sans-italic', sans-serif;
+    text-align: center;
+    font-weight: 400;
+}
+
+.team-more-link{
+    /* text-align: center; */
+    margin-left: 37%;
+    margin-right: 35%;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+}
+.col-md-4{
+    margin-top: 2%;
 }
