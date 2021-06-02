@@ -17,76 +17,82 @@
     font-family: 'open-sans-light';
     src: url('../assets/fonts/Open_Sans/OpenSans-Light.ttf');
 }
-
-.team-img {
-    width: 250px;
-    height: 250px;
+.team-img{
+    width: 240px;
+    height: 240px;
     border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
-
-.team-card {
-    height: 100%;
-    padding: 5%;
+.team-card{
+   height: 100%;
+    background: #454545;
     border-radius: 10px;
-    width: 425px;
-    height: 486px;
-    background-color: #454545;
+    padding: 25px 30px;
+    text-align: center;
+    color: #fff;
 }
-
-.team-content-data {
-    padding: 5% 2% 5% 2%;
+.team-card .card-data {
+    height: auto;
+background-image: none;}
+.team-card .card-data:hover {
+    top: 0px;
+    height: auto;
+    margin: 0px;
+    transition: none;
+    border-radius: 0%;
+    background-color: inherit;
+}
+.team-content-data{
+    padding:1% 1% 1% 1%;
     letter-spacing: 1px;
     text-align: left;
-    font-family: 'open-sans', sans-serif;
+    font-family: 'open-sans',sans-serif;
     font-size: 22px;
     font-weight: 400;
 }
-
-
-.team-data{
-    padding: 5% 2% 0% 2%;
-}
-.team-nav-pills{
-    margin-top: 0% !important;
-}
-
-.team-tabs-content {
+.team-tabs-content{
     height: 100%;
-    padding: 3% 2% 5% 2%;
-    background-color: #f6f6f6;
+    padding:5% 2% 5% 2%;
+	background:#f6f6f6;
 }
 
-.tab-content {
+.tab-content{
     height: 100% !important;
 }
-
-.card-team-head {
-    color: #fff;
-    font-size: 18px;
-    font-weight: 700;
-    font-family: 'open-sans', sans-serif;
-    text-align: center;
-    margin-top: 5%;
+.modal-body {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0rem;
 }
-
-.card-team-about {
-    color: #fff;
-    font-size: 16px;
-    font-family: 'open-sans-italic', sans-serif;
-    text-align: center;
-    font-weight: 400;
+.modal-left{
+	color:#212629;
+	text-align:center;
+	padding:60px;
 }
-
-.team-more-link{
-    /* text-align: center; */
-    margin-left: 37%;
-    margin-right: 35%;
-    color: #fff;
-    font-weight: 700;
-    font-size: 14px;
+.modal-right{padding:60px;
+color:#212629;
+font-size:20px;
 }
-.col-md-4{
-    margin-top: 2%;
+.close {
+    float: right;
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1;
+    color: #2A80BA;
+    text-shadow: none;
+    opacity: 1;
+    right: 30px;
+    position: absolute;
+    z-index: 9999;
+}
+.team-card a{color:#fff;
+
+text-decoration:none;}
+@media (min-width: 576px){
+.modal-dialog {
+    max-width: 1096px;
+    margin: 1.75rem auto;
+}
 }
