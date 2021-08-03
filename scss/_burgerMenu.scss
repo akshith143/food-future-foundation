@@ -1,0 +1,209 @@
+.burgerMenu {
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    top: 12px;
+    bottom: 0;
+    right: 20px;
+    z-index: 99999999;
+}
+.burgermenu-button {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    background-color: transparent;
+    border: 0px solid;
+    outline: none;
+    transition: 0.3s;
+}
+
+.bml_color {
+    background-color: #fefefe;
+}
+.burgermenu_line {
+    width: 100%;
+    height: 2px;
+    display: flex;
+    pointer-events: none;
+    transition: 0.3s ease-in-out;
+    position: relative;
+}
+.bmactive_re .burgermenu_line:before {
+    animation-name: bmenulineanim_re;
+    animation-duration: 0.9s;
+    animation-fill-mode: forwards;
+}
+.bml_color:before {
+    background-color: #fefefe;
+}
+.burgermenu_line:before {
+    transition: 0.3s ease-in-out;
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    margin-top: -40%;
+}
+.bml_color:after {
+    background-color: #fefefe;
+}
+.bmactive_re .burgermenu_line:after {
+    animation-name: bmenulineanim_3_re;
+    animation-duration: 0.9s;
+    animation-fill-mode: forwards;
+}
+.burgermenu_line:after {
+    transition: 0.3s ease-in-out;
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    margin-top: 40%;
+}
+
+/* sidenav */
+
+#sidenav {
+    $size-f: 0.9; /* size factor, 2 for double of sidebar */
+    $width: 320px; /* side nav width */
+    $back-color: #111;
+    $text-color: white;
+    $close-btn-s: 2.2em; /* increase/decrease to size the close btn */
+    $nav-item-s: 1.3em;
+    font-size: 1em * $size-f;
+    z-index: 100;
+    position: fixed;
+    left: 0;
+    top: 60px;
+    height: 100%;
+    width: $width;
+    background-color: $back-color;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    a {
+        color: darken($text-color, 30);
+        font-family: "open-sans", sans-serif;
+        font-size: 16px;
+        text-decoration: none !important;
+    }
+    a:hover {
+        color: #256eb5;
+    }
+    .closebtn {
+        flex: 0 0 1.2em;
+        font-size: $close-btn-s;
+        width: 1.5em;
+        height: 1.2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        -webkit-tap-highlight-color: transparent; /* to remove the blinking of tap on mobile */
+        text-decoration: none;
+    }
+    .side-nav-items {
+        width: 100%;
+        font-size: $nav-item-s;
+        padding: 1em 0;
+        list-style: none;
+        .side-item {
+            border-bottom: 1px solid #2f2f2f;
+            padding: 10px 15px;
+
+            &:first-child {
+                margin-top: 0;
+            }
+        }
+    }
+    transform: translateX(-$width);
+    transition: transform 0.5s;
+    &.show {
+        transform: translateX(0);
+    }
+    /* dropdown style */
+    .dropdown {
+        color: darken($text-color, 30);
+        > a::after {
+            content: "";
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            border: solid white;
+            border-width: 0 2px 2px 0;
+            display: inline-block;
+            padding: 3px;
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+        }
+        .dropdown-items {
+            padding: 0 0 0 0.5em;
+            max-height: 0;
+            overflow-x: hidden;
+            overflow-y: auto;
+            transition: all 0.7s;
+            width: 111%;
+            .dropdown-item {
+                white-space: inherit;
+                padding: 5px 0;
+                &::before {
+                    content: " ";
+                }
+                &:hover {
+                    background: none;
+                    color: #256eb5 !important;
+                }
+                &:focus {
+                    background: none;
+                }
+            }
+        }
+        &:hover {
+            /* remove if want to work the dropdown on click*/
+            .dropdown-items {
+                max-height: 400px;
+            }
+        }
+    }
+}
+
+/* changing scrollbar on desktop */
+@media only screen and (min-width: 30rem) {
+    #sidenav .side-nav-items {
+        &::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 1);
+            border-radius: 10px;
+            background-color: #cccccc;
+        }
+        &::-webkit-scrollbar {
+            width: 0.4em;
+            background-color: #757575;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+            background-color: #555;
+        }
+    }
+    .dropdown-items {
+        &::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 1);
+            border-radius: 10px;
+            background-color: #cccccc;
+        }
+        &::-webkit-scrollbar {
+            width: 0.4em;
+            background-color: #757575;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+            background-color: #555;
+        }
+    }
+}

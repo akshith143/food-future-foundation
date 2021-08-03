@@ -117,7 +117,7 @@ body {
     color: #ecf0f1;
     font-size: 21px;
     letter-spacing: 1px;
-    padding: 0% 17% 0% 17%;
+    padding: 0% 30px;
     font-family: "open-sans", sans-serif;
     font-weight: 400;
 }
@@ -472,7 +472,7 @@ body {
 
 .dropdown-menu li {
     text-align: center;
-    padding: 60px !important;
+    padding: 30px 60px !important;
 }
 
 .dropdown-menu li a {
@@ -676,9 +676,7 @@ body {
 
 #nav-logo-mobile {
     margin-left: 1rem !important;
-    width: 80px;
-    height: 80px;
-    margin-top: -1rem;
+    width: 60px;
 }
 
 /* scrollbar */

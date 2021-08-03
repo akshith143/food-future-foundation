@@ -26,10 +26,11 @@
 }
 
 #header {
-    padding: 24px 5rem 0 5rem;
+    padding: 24px 3rem 0 3rem;
 
     &.stickyHeader {
         background: #000;
+        margin-top: -24px;
         #nav-logo {
             width: 60px;
         }
@@ -59,6 +60,8 @@
 }
 .dropdown-menu.show {
     display: inline-flex !important;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 .nav-item .dropdown {
     width: 100vw;
@@ -68,11 +71,17 @@
         left: 0 !important;
         width: 100vw;
         margin: 0;
-        padding: 0;
+        padding: 30px;
         border: none;
+        border-radius: 0;
         // display: flex;
     }
 }
+.dropdown-menu li {
+    width: 25%;
+    text-align: left;
+}
+
 .dropdown-menu li a:hover {
     color: #007bff;
 }
@@ -108,15 +117,18 @@
 .navbar-nav {
     align-items: center;
 }
-.getInvolved {
+a.getInvolved {
     height: 44px;
     width: 161px;
     border-radius: 3px;
     background-color: #256eb5;
-    padding: 15px 17px;
+    padding: 15px 30px 15px 17px !important;
     color: #fff;
     text-decoration: none !important;
     transition: 0.3s;
+    &:after {
+        top: 21px;
+    }
     &:hover {
         background: #000;
         color: #fff;
@@ -239,7 +251,23 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 25px;
+    position: relative;
+    &:after {
+        content: "";
+        position: absolute;
+        width: 43px;
+        background: url(../assets/images/icon/arrow-path.svg) no-repeat right top;
+        left: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        height: 15px;
+    }
 }
+.clircle-row .col-md-4:last-child .ic-circle:after {
+    display: none;
+}
+
 .our-partiners {
     padding: 60px 0;
     h3 {
@@ -276,8 +304,8 @@ footer {
     }
 }
 .innerBg {
-    height: 50vh;
-    min-height: 50vh;
+    height: 70vh;
+    min-height: 70vh;
     img {
         width: 100%;
         height: 100%;
@@ -316,7 +344,21 @@ footer {
         max-width: 100%;
     }
 }
+.navBarMobile {
+    display: none;
+    background: #000;
+}
 @media only screen and (max-width: 767px) {
+    .ic-circle:after {
+        display: none;
+    }
+    .navBarMobile {
+        display: block;
+    }
+    .navbar-brand {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
     .descriptionSec img {
         max-width: 100%;
     }
@@ -394,6 +436,13 @@ footer {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .navBarMobile {
+        display: block;
+    }
+    .navbar-brand {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
     .box-row {
         .col {
             flex-basis: 50%;
@@ -416,8 +465,15 @@ footer {
         padding: 30px 25px 30px 11px !important;
         position: relative;
     }
+    .nav-item {
+        margin-left: 5px;
+    }
+    a.getInvolved {
+        padding: 15px 30px 15px 17px !important;
+        font-size: 14px;
+    }
     #header {
-        padding: 0 2rem;
+        padding: 24px 2rem 0 2rem;
     }
     .nav-link {
         font-family: "open-sans-light";
