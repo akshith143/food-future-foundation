@@ -131,12 +131,12 @@ body {
   display: flex;
   height: 100%;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 100%;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .main-banner {
@@ -695,7 +695,7 @@ body {
 /* Track */
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 5px grey;
-          box-shadow: inset 0 0 5px grey;
+  box-shadow: inset 0 0 5px grey;
   border-radius: 0px;
 }
 
@@ -870,8 +870,8 @@ body {
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
 .top-head ul {
@@ -879,8 +879,8 @@ body {
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   list-style: none;
   margin: 0;
 }
@@ -933,10 +933,10 @@ body {
   display: -ms-inline-flexbox !important;
   display: inline-flex !important;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 .nav-item .dropdown {
@@ -984,7 +984,7 @@ body {
   right: 10px;
   top: 45%;
   -webkit-transform: translateY(-45%);
-          transform: translateY(-45%);
+  transform: translateY(-45%);
   border: solid white;
   border-width: 0 2px 2px 0;
   display: inline-block;
@@ -995,8 +995,8 @@ body {
 
 .navbar-nav {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 a.getInvolved {
@@ -1077,7 +1077,7 @@ a.getInvolved:hover {
   border-radius: 10px;
   background-color: #ffffff;
   -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.09);
-          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.09);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.09);
   padding: 35px 16px;
   text-align: center;
 }
@@ -1099,8 +1099,8 @@ a.getInvolved:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .blueBgSec p {
@@ -1124,11 +1124,11 @@ a.getInvolved:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .fff-section h3 {
@@ -1161,14 +1161,14 @@ a.getInvolved:hover {
   height: 160px;
   background-color: #ffffff;
   -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.09);
-          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.09);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.09);
   border-radius: 50%;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-bottom: 25px;
   position: relative;
 }
@@ -1181,7 +1181,7 @@ a.getInvolved:hover {
   left: 100%;
   top: 50%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   width: 100%;
   height: 15px;
 }
@@ -1310,8 +1310,8 @@ footer .row-bottom p {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
   .overlay-head {
     font-size: 34px;
@@ -1328,7 +1328,7 @@ footer .row-bottom p {
   }
   .box-row .col {
     -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
+    flex-basis: 100%;
     margin-bottom: 20px;
   }
   .fff-section {
@@ -1397,7 +1397,7 @@ footer .row-bottom p {
   }
   .box-row .col {
     -ms-flex-preferred-size: 50%;
-        flex-basis: 50%;
+    flex-basis: 50%;
     margin-bottom: 20px;
   }
   .fff-section .blu-circle {
@@ -1479,11 +1479,11 @@ footer .row-bottom p {
 
 .bmactive_re .burgermenu_line:before {
   -webkit-animation-name: bmenulineanim_re;
-          animation-name: bmenulineanim_re;
+  animation-name: bmenulineanim_re;
   -webkit-animation-duration: 0.9s;
-          animation-duration: 0.9s;
+  animation-duration: 0.9s;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 .bml_color:before {
@@ -1507,11 +1507,11 @@ footer .row-bottom p {
 
 .bmactive_re .burgermenu_line:after {
   -webkit-animation-name: bmenulineanim_3_re;
-          animation-name: bmenulineanim_3_re;
+  animation-name: bmenulineanim_3_re;
   -webkit-animation-duration: 0.9s;
-          animation-duration: 0.9s;
+  animation-duration: 0.9s;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 .burgermenu_line:after {
@@ -1545,13 +1545,13 @@ footer .row-bottom p {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   -webkit-transform: translateX(-320px);
-          transform: translateX(-320px);
+  transform: translateX(-320px);
   -webkit-transition: -webkit-transform 0.5s;
   transition: -webkit-transform 0.5s;
   transition: transform 0.5s;
@@ -1572,8 +1572,8 @@ footer .row-bottom p {
 
 #sidenav .closebtn {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 1.2em;
-          flex: 0 0 1.2em;
+  -ms-flex: 0 0 1.2em;
+  flex: 0 0 1.2em;
   font-size: 2.2em;
   width: 1.5em;
   height: 1.2em;
@@ -1581,11 +1581,11 @@ footer .row-bottom p {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-tap-highlight-color: transparent;
   /* to remove the blinking of tap on mobile */
   text-decoration: none;
@@ -1609,7 +1609,7 @@ footer .row-bottom p {
 
 #sidenav.show {
   -webkit-transform: translateX(0);
-          transform: translateX(0);
+  transform: translateX(0);
 }
 
 #sidenav .dropdown {
