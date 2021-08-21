@@ -476,7 +476,7 @@ body {
 }
 
 .dropdown-menu li a {
-    font-size: 24px;
+    font-size: 18px;
     font-family: "open-sans";
     letter-spacing: 1px;
     color: #ffffff;
@@ -854,3 +854,32 @@ body {
 }
 
 /*team page css*/
+
+.copyright p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.vertical-menu {
+    width: 100%; 
+  }
+  
+  .vertical-menu a {
+    background-color: #eee;
+    color: black; 
+    display: block; 
+    padding: 12px; 
+    text-decoration: none; 
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc; 
+  }
+  
+  .vertical-menu a.active {
+    background-color: #000; 
+    color: white;
+  }
+  table td {padding:5px;}
+  footer a{color:#fff;text-decoration: none;}
+  footer a:hover{color:#256eb5;text-decoration: none;}
